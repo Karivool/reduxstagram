@@ -1,7 +1,6 @@
 // reducer needs the action and copy of current state
 
-function comments(state = [], action) {
-  console.log(state,action);
+function comments(action, state=[]) {
   return state;
 }
 
